@@ -51,3 +51,4 @@ Create table Факт_расхода
     Constraint FK_Факт_расхода_2 Foreign Key (Номер_получателя) references Получатель (Номер_получателя),
     Constraint AK_Uniq_2 Unique (Номер_получателя, Наименование_товара, Дата_расхода)
 );
+
